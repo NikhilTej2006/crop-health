@@ -45,9 +45,7 @@ python app.py
 Ensure that the ESP32-CAM is sending images to the Flask server.
 
 Project Structure
-bash
-Copy
-Edit
+
 crop-health-management/
 │
 ├── model/                 # ML model and preprocessing code
@@ -55,6 +53,8 @@ crop-health-management/
 ├── esp32/                 # ESP32-CAM firmware code
 ├── utils/                 # Helper scripts
 └── README.md              # Project documentation
+
+
 Future Scope
 Integrate weather and soil data
 
